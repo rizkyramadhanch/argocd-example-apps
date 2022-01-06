@@ -8,5 +8,5 @@ spec:
     targetPort: 8080
   selector:
     app: guestbook-ui
-  LoadBalancerIP: 127.0.0.1
+  loadBalancerIP: 127.0.0.1
   type: LoadBalancer
